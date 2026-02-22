@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Complaints</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Raise Complaint</h2>
+<div class="nav">
+  <a href="rooms.html">Rooms</a>
+  <a href="tenants.html">Tenants</a>
+  
+</div>
+
+<input id="complaintText" placeholder="Enter complaint">
+<button onclick="addComplaint()">Submit</button>
+
+<h3>Complaints</h3>
+<ul id="complaintList"></ul>
+
+<script src="script.js"></script>
+<script>
+  loadComplaints();
+</script>
+
+</body>
+</html>

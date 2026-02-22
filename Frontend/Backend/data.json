@@ -1,0 +1,22 @@
+{
+  "rooms": [
+    {
+      "roomNo": "100",
+      "rent": "4500"
+    }
+  ],
+  "tenants": [
+    {
+      "name": "Rahul",
+      "room": "100"
+    }
+  ],
+  "complaints": [
+    {
+      "issue": "Fan not working "
+    },
+    {
+      "issue": "Water Leakage"
+    }
+  ]
+}

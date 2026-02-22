@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hostel Management Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🏠 Hostel / PG Management</h1>
+
+<div class="nav">
+  <a href="rooms.html">Rooms</a>
+  <a href="tenants.html">Tenants</a>
+  <a href="complaints.html">Complaints</a>
+</div>
+
+<div class="dashboard">
+  <div class="card">Total Rooms: <span id="roomCount">0</span></div>
+  <div class="card">Total Tenants: <span id="tenantCount">0</span></div>
+  <div class="card">Complaints: <span id="complaintCount">0</span></div>
+</div>
+
+<script src="script.js"></script>
+<script>
+  loadDashboard();
+</script>
+
+</body>
+</html>

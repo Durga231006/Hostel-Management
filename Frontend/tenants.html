@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tenants</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Add Tenant</h2>
+
+<input id="tenantName" placeholder="Tenant Name">
+<input id="tenantRoom" placeholder="Room Number">
+<button onclick="addTenant()">Add Tenant</button>
+
+<h3>Tenant List</h3>
+<ul id="tenantList"></ul>
+
+<script src="script.js"></script>
+<script>
+  loadTenants();
+</script>
+
+</body>
+</html>
