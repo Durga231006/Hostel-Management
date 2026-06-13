@@ -15,4 +15,4 @@ Frontend: HTML5, CSS3, Vanilla JavaScript (ES6+)
 
 API Communication: Fetch API
 
-Backend (Required): Node.js/Express (or any server running on http://localhost:5000)
+Backend (Required): Node.js,Express and server running on http://localhost:5000)
